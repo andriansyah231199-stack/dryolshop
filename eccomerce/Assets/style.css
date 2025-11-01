@@ -1,0 +1,25 @@
+ .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x900/?shopping');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .product-card {
+      transition: transform 0.3s;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .product-card:hover {
+      transform: translateY(-10px);
+    }
+    .product-img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
